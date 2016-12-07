@@ -1,0 +1,135 @@
+@charset "utf-8";
+/*main color : #474E51*/
+/*
+제목
+font-family: 'Julius Sans One', sans-serif;
+
+font-family: 'Sumana', serif;
+*/
+body{
+  background-color: #6DACBD;
+  color: #474E51;
+}
+h1{
+  font-size: 42px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+h2{
+  /*font-size: 100px;*/
+  font-size: 6.25rem;
+  text-align: center;
+  font-family: 'Sumana', serif;
+  margin-top: -60px;
+  margin-bottom: -50px;
+}
+a{
+  color: #474E51;
+  cursor: pointer;
+}
+.wrap{
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F8F8F8;
+  box-shadow: 5px 5px 5px #72979B;
+}
+.main_title{
+  border-bottom: 1px solid #757F85;
+  text-align: center;
+  margin-bottom: 5px;
+  padding-top: 20px;
+}
+.main_title::after{
+  content: '';
+  display: block;
+  margin-bottom: 2px;
+  padding-top: 20px;
+  border-bottom: 1px solid #757F85;
+}
+.gnb_wrap{
+  text-align: center;
+  border-bottom: 1px solid #757F85;
+}
+.main_nav{
+  display: inline-block;
+}
+.main_nav li{
+  display: inline-block;
+  padding: 10px 45px;
+}
+
+.portfolio_content_wrap{
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.portfolio_content{
+  padding: 30px 9px 40px 9px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #757F85;
+}
+.portfolio_content > a{
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.portfolio_content > a::before{
+  content: "";
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  transition: all 0.2s;
+  background-color: hsla(0, 0%, 0%, 0.5);
+}
+.portfolio_content > a:hover::before{
+  bottom: 0;
+}
+.portfolio_content > a::after{
+  content: "Click!! go to website";
+  position: absolute;
+  left: 50%;
+  top: -100px;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 10px 0;
+  color: #757F85;
+  font-size: 20px;
+  background-color: hsla(0, 0%, 100%, 0.8);
+  transition: all 0.5s;
+  text-align: center;
+}
+.portfolio_content > a:hover::after{
+  top: 50%;
+}
+.three_content{
+  width: 100%;
+  text-align: center;
+}
+.three_content > .portfolio_content{
+  float: left;
+  width: 33.3333%;
+}
+.two_content{
+  width: 100%;
+  text-align: center;
+}
+.two_content > .portfolio_content{
+  float: left;
+  width: 50%;
+}
+
+
+.bottom_txt{
+  text-align: center;
+  padding-top: 40px;
+}
+
+.footer{
+  border-top: 1px solid #757F85;
+  text-align: center;
+  padding: 20px 0px;
+}

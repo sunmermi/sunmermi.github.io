@@ -49,6 +49,8 @@ a{
 .gnb_wrap{
   text-align: center;
   border-bottom: 1px solid #757F85;
+  position: relative;
+  z-index: 99;
 }
 .main_nav{
   display: inline-block;

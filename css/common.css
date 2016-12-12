@@ -36,9 +36,6 @@ video.rwd-video {
   height: auto;
 }
 
-
-
-
 /* 배경 이미지(CSS)에 적용되는 Fluid BG Image ?????*/
 .rwd-img-3-4 {
   width: 100%;
@@ -76,9 +73,6 @@ video.rwd-video {
   width: 100%;
   height: 100%;
 }
-
-
-
 
 img.horizontal-center-img {
   margin-left: 50%;

@@ -150,6 +150,7 @@ a{
 .four_content .right_con{
   width: 30%;
   float: left;
+  text-align: center;
 }
 
 .four_content .right_con .portfolio_content:first-child{

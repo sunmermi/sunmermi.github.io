@@ -62,7 +62,7 @@ a{
 
 
 
-/* 콘텐츠 */
+/* 포폴 콘텐츠 */
 .portfolio_content_wrap{
   max-width: 90%;
   margin-left: auto;
@@ -78,7 +78,7 @@ a{
   margin-bottom: -20px;
 }
 
-.one_content, .three_content, .two_content{
+.one_content, .three_content, .two_content, .four_content{
   border-bottom: 1px solid #757F85;
 }
 .portfolio_content{
@@ -122,6 +122,7 @@ a{
   top: 50%;
 }
 
+/* 두번째 콘텐츠 영역 */
 .three_content{
   width: 100%;
   text-align: center;
@@ -131,6 +132,7 @@ a{
   width: 33.3333%;
 }
 
+/* 세번째 콘텐츠 영역 */
 .two_content{
   width: 100%;
   text-align: center;
@@ -138,6 +140,26 @@ a{
 .two_content > .portfolio_content{
   float: left;
   width: 50%;
+}
+
+/* 네번째 콘텐츠 영역 */
+.four_content .left_con{
+  width: 70%;
+  float: left;
+}
+.four_content .right_con{
+  width: 30%;
+  float: left;
+}
+
+.four_content .right_con .portfolio_content:first-child{
+  padding-bottom: 18px;
+}
+.four_content .right_con .portfolio_content:last-child{
+  padding-top: 0;
+}
+.four_content .right_con button{
+  margin-top: 0;
 }
 
 
@@ -172,7 +194,6 @@ a{
 }
 
 /* 포폴 소개 콘텐츠 */
-
 .about_content{
   background-color: #fff;
   text-align: left;

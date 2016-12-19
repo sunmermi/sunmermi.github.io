@@ -163,6 +163,10 @@ a{
   margin-top: 0;
 }
 
+.four_content .right_con .about_content > p{
+  width: 80%;
+}
+
 
 /* 버튼 */
 .job_btn{

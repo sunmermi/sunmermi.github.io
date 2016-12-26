@@ -79,6 +79,13 @@
       classToggle(this.num);
       return false;
     };
+
+    //라망 작업일지 버튼 비활성화
+    var job_btn=document.querySelectorAll('.job_btn');
+    job_btn[0].onclick = function(){
+      alert('LA-main 작업일지는 아직 업로드 되지않았습니다.');
+      return false;
+    };
   }
 
 

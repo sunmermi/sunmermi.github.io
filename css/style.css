@@ -227,6 +227,9 @@ a{
 .about_close_btn:hover{
   background: #6DACBD;
 }
+.link{
+  color: #0852FF;
+}
 
 /* 버튼 슬라이드 이벤트 */
 .slide-up, .slide-down {
@@ -239,7 +242,7 @@ a{
 }
 
 .slide-down {
-   max-height: 500px; 
+   max-height: 600px; 
   /*padding-bottom: 42.5%;*/
 }
 

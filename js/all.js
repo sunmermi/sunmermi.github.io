@@ -81,11 +81,11 @@
     };
 
     //라망 작업일지 버튼 비활성화
-    var job_btn=document.querySelectorAll('.job_btn');
-    job_btn[0].onclick = function(){
-      alert('La-main 작업일지는 아직 업로드 되지 않았습니다.');
-      return false;
-    };
+    // var job_btn=document.querySelectorAll('.job_btn');
+    // job_btn[0].onclick = function(){
+    //   alert('La-main 작업일지는 아직 업로드 되지 않았습니다.');
+    //   return false;
+    // };
   }
 
 

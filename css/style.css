@@ -27,6 +27,13 @@ a{
   color: #474E51;
   cursor: pointer;
 }
+code{
+  background-color: #888B93;
+  color: #fff;
+  padding: 5px 10px;
+  line-height: 2;
+}
+
 .wrap{
   max-width: 1280px;
   margin-left: auto;
@@ -123,7 +130,7 @@ a{
   top: 50%;
 }
 
-/* 두번째 콘텐츠 영역 */
+/* 두번째 라인 콘텐츠 */
 .three_content{
   width: 100%;
   text-align: center;
@@ -133,7 +140,7 @@ a{
   width: 33.3333%;
 }
 
-/* 세번째 콘텐츠 영역 */
+/* 세번째 라인 콘텐츠 영역 */
 .two_content{
   width: 100%;
   text-align: center;
@@ -143,7 +150,7 @@ a{
   width: 50%;
 }
 
-/* 네번째 콘텐츠 영역 */
+/* 네번째 라인 콘텐츠 영역 */
 .four_content .left_con{
   width: 70%;
   float: left;
@@ -164,7 +171,7 @@ a{
   margin-top: 0;
 }
 
-.four_content .right_con .about_content > p{
+.four_content .right_con .about_content > ul{
   width: 80%;
 }
 
@@ -184,7 +191,6 @@ a{
   color: #6DACBD;
   font-size: 14px;
 }
-
 .about_btn:hover, .job_btn:hover{
   background-color: #6DACBD;
   color: #fff;
@@ -196,13 +202,6 @@ a{
   background-color: #fff;
   text-align: left;
   box-sizing: border-box;
-  /*display: none;*/
-}
-.about_content p{
-  margin-left: 30px;
-  line-height: 1.5;
-  color: #5D666B;
-  width: 94%;
 }
 .about_content h4{
   border-bottom: 1px solid #757F85;
@@ -210,6 +209,21 @@ a{
   padding: 30px 0 5px 0;
   font-weight: normal;
   margin: 10px 20px;
+}
+.about_content ul{
+  width: 88%;
+  color: #5D666B;
+}
+.about_content li {
+  margin-left: 10px;
+  padding-bottom: 15px;
+}
+.lang_list li{
+  float: left;
+  list-style: none;
+}
+.lang_list > li:first-child{
+  list-style-type: disc;
 }
 .about_close_btn{
   border: none;
@@ -242,10 +256,10 @@ a{
 }
 
 .slide-down {
-   max-height: 600px; 
-  /*padding-bottom: 42.5%;*/
+   max-height: 800px; 
 }
 
+/* 두번째 라인 */
 .three_left,.three_center,.three_right{ width: 300%; }
 .three_center{
   position: relative;
@@ -256,6 +270,7 @@ a{
   left: -200%;
 }
 
+/* 세번째 라인 */
 .two_left,.two_right{ width: 200%; }
 .two_right{
   position: relative;
@@ -274,5 +289,122 @@ a{
   text-align: center;
   padding: 20px 0px;
 }
+
+/*
+모바일 ~ 590
+태블릿 591 ~ 870
+데탑 871 이상 
+*/
+
+@media only screen and (max-width: 870px) {
+
+  .about_btn, .job_btn{
+    margin-top: 10px;
+  }
+
+  /* 두번째 라인 콘텐츠 */
+  .three_content > .portfolio_content:first-child{
+    width: 100%;
+    text-align: left;
+  }
+  .three_content > .portfolio_content:first-child ~ .portfolio_content{
+    width: 50%;
+  }
+
+  .three_left{ width: 100%; }
+  .three_center, .three_right{ width: 200%; }
+  .three_center{
+    left: 0;
+  }
+  .three_right{
+    left: -100%;
+  }
+
+  /* 세번째 라이 콘텐츠 영역 */
+  .two_content > .portfolio_content{
+    float: none;
+    width: 100%;
+    text-align: left;
+  }
+  .two_left,.two_right{ 
+    width: 100%; 
+  }
+  .two_right{
+    left: 0;
+  }
+
+  /* 네번째 라인 콘텐츠 영역 */
+  .four_content .left_con{
+    width: 100%;
+  }
+  .four_content .right_con{
+    width: 100%;
+    float: none;
+  }
+
+  .four_content .right_con .portfolio_content {
+    width: 50%;
+    float: left;
+  }
+
+  .four_content .right_con .portfolio_content:first-child{
+    padding-bottom: 40px;
+  }
+  .four_content .right_con .portfolio_content:last-child{
+    padding-top: 40px;
+  }
+  .four_left, .four_right{ width: 200%; }
+  .four_right{
+    position: relative;
+    left: -100%;
+  }
+
+  .four_content .right_con .about_content > ul{
+    width: 88%;
+  }
+
+}
+
+@media only screen and (max-width: 590px) {
+
+  .one_content, .three_content, .two_content, .four_content{
+    text-align: center;
+  }
+
+  /* 두번째 라인 콘텐츠 */
+  .three_content{
+    width: 100%;
+  }
+  .three_content > .portfolio_content{
+    float: none;
+  }
+
+  .three_content > .portfolio_content:first-child{
+    text-align: center;
+  }
+
+  .three_content > .portfolio_content:first-child ~ .portfolio_content{
+    width: 100%;
+  }
+
+  .three_center, .three_right{ 
+    width: 100%;
+  }
+  .three_right{
+    left: 0;
+  }
+
+  /* 세번째 라인 콘텐츠 영역 */
+  .two_content > .portfolio_content{
+    text-align: center;
+  }
+  /* 네번째 라인 콘텐츠 영역 */
+  .four_content .right_con .about_content > ul{
+    width: 80%;
+  }
+
+
+}
+
 
 

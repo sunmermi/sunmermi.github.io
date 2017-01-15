@@ -13,9 +13,11 @@
   </head>
   <body>
     <div class="wrap">
+      <!-- 로고 -->
       <header>
         <h1 class="main_title">SSEOM's Blog.</h1>
       </header>
+      <!-- 메인메뉴 -->
       <nav class="gnb_wrap">
         <ul class="reset-list main_nav">
           <li>
@@ -25,10 +27,13 @@
           <li><a href="#">OTHER</a></li>
         </ul>
       </nav>
-      <!--  -->
+
+      <!-- 콘텐츠 영역 -->
       <section class="portfolio_content_wrap">
+        <!-- 콘텐츠 제목 -->
         <h2 class="image-replace sub_title">My portfolio collection :)</h2>
 
+        <!-- 첫번째 라인 -->
         <div class="one_content">
           <article class="portfolio_content">
             <a class="proect_link" href="https://sseom.github.io/project/la-main/" target="_blank" title="푸드매거진 라망 38호 웹진 새창으로 이동" ><img src="images/la-main.jpg" alt="푸드매거진 라망 38호 메인 화면 이미지"></a>
@@ -65,6 +70,7 @@
           </article>
         </div>
 
+        <!-- 두번째 라인 -->
         <div class="three_content cf">
           <article class="portfolio_content">
             <a class="proect_link" href="https://sseom.github.io/project/todo-list/" target="_blank" title="투두리스트 새창으로 이동" ><img src="images/to-do-list.jpg" alt="두투 리스트 완성 이미지"></a>
@@ -91,29 +97,32 @@
           </article>
 
           <article class="portfolio_content">
-            <a class="proect_link" href="https://sseom.github.io/project/dry-flower/"  target="_blank" title="정적인 타일 레이아웃 드라이플라워 연습페이지 새창으로 이동">
-              <img src="images/dry-flower.jpg" alt="드라이플라워 메인 화면 이미지">
-            </a>
-            <h3>Dry Flower</h3>
-            <p>정적인 타일 레이아웃 디자인 웹페이지</p>
+            <a class="proect_link" href="https://sseom.github.io/project/ajax-friend/" target="_blank" title="새창으로 이동" ><img src="images/ajax-friend.jpg" alt="AJAX - Friend 페이지 완성 이미지"></a>
+            <h3>AJAX - Friend</h3>
+            <p>AJAX 통신으로 추천 친구 받는 웹페이지</p>
             <button type="button" class="about_btn">About this portfolio..</button>
             <div class="about_content three_center slide-up">
               <h4>사용언어 및 툴</h4>
               <ul class="lang_list cf">
                 <li>HTML5,</li>
                 <li>CSS,</li>
-                <li>CSS3</li>
+                <li>CSS3,</li>
+                <li>Javascript,</li>
+                <li>AJAX</li>
               </ul>
               <h4>사용기술</h4>
               <ul>
-                <li>정적인 타일 레이아웃 구성</li>
-                <li>CSS3 : filter, transition 사용</li>
-                <li>CSS3 속성 사용으로 크롬브라우져에 최적화.</li>
-                <li>IR기법 (image-replace) : 리더기는 텍스트를 읽어주되 시각적으론 이미지로 대체</li>
                 <li>
-                  <code>&lt;img src="img.jpg" alt=“imges” width="640" height="327"&gt;</code><br>
-                  정적인 웹에서 이미지 요소를 작성할 때 width와 height 속성값을 작성하면 이미지를 못불러 올때 문서의 레이아웃이 무너지지 않는다.
+                  <a class="link" href="https://github.com/sseom/learning/blob/master/04_Ajax_JSON/01_Ajax.md" target="_blank" title="AJAX 학습정리한 내용 새창으로 이동" >AJAX study</a>
+                  </li>
+                <li>
+                  <a class="link" href="https://github.com/sseom/learning/blob/master/04_Ajax_JSON/02_JSON.md" target="_blank" title="JSON 학습정리한 내용 새창으로 이동" >JSON study</a>
                 </li>
+                <li>Ajax 통신으로 JSON 데이터를 화면에 렌더링</li>
+                <li>추천 친구 정렬 방식 버튼 : 데이터 썸네일 방식 또는 리스트 방식으로 정렬</li>
+                <li>새로고침 버튼 : 추천 친구 데이터 새로고침</li>
+                <li>썸네일 이미지 : 썸네일 이미지 호버시 이미지 확대 및 필터 효과, 클릭시 모달콘텐츠(친구 정보) 뜸</li>
+                <li>해야할 작업 : 불러온 데이터에서 친구 추가 more 버튼 만들고 구현? 흠,,,</li>
               </ul>
               <button type="button" class="about_close_btn">CLOSE</button>
             </div>
@@ -149,6 +158,7 @@
           </article>
         </div>
 
+        <!-- 세번째 라인 -->
         <div class="two_content cf">
           <article class="portfolio_content">
             <a class="proect_link" href="https://sseom.github.io/suns/cjone/" target="_blank" title="카피작업 한 cj one 웹사이트 새창으로 이동">
@@ -211,6 +221,7 @@
           </article>
         </div>
 
+        <!-- 네번째 라인 -->
         <div class="four_content cf">
           <div class="left_con">
             <article class="portfolio_content">
@@ -244,12 +255,40 @@
 
           <div class="right_con">
             <article class="portfolio_content">
+              <a class="proect_link" href="https://sseom.github.io/project/dry-flower/"  target="_blank" title="정적인 타일 레이아웃 드라이플라워 연습페이지 새창으로 이동">
+                <img src="images/dry-flower.jpg" alt="드라이플라워 메인 화면 이미지">
+              </a>
+              <h3>Dry Flower</h3>
+              <button type="button" class="about_btn">About this portfolio..</button>
+              <div class="about_content four_left slide-up">
+                <h4>사용언어 및 툴</h4>
+                <ul class="lang_list cf">
+                  <li>HTML5,</li>
+                  <li>CSS,</li>
+                  <li>CSS3</li>
+                </ul>
+                <h4>사용기술</h4>
+                <ul>
+                  <li>정적인 타일 레이아웃((Static Tile Layout) 디자인</li>
+                  <li>CSS3 : filter, transition 사용</li>
+                  <li>CSS3 속성 사용으로 크롬브라우져에 최적화.</li>
+                  <li>IR기법 (image-replace) : 리더기는 텍스트를 읽어주되 시각적으론 이미지로 대체</li>
+                  <li>
+                    <code>&lt;img src="img.jpg" alt=“imges” width="640" height="327"&gt;</code><br>
+                    정적인 웹에서 이미지 요소를 작성할 때 width와 height 속성값을 작성하면 이미지를 못불러 올때 문서의 레이아웃이 무너지지 않는다.
+                  </li>
+                </ul>
+                <button type="button" class="about_close_btn">CLOSE</button>
+              </div>
+            </article>
+
+            <article class="portfolio_content">
               <a class="proect_link" href="https://sseom.github.io/project/rwd-image-gallery/" target="_blank" title="새창으로 이동">
                 <img src="images/rwd-img-gallery.jpg" alt="이미지 갤러리 메인이미지">
               </a>
               <h3>RWD Image Gallery</h3>
               <button type="button" class="about_btn">About this portfolio..</button>
-              <div class="about_content four_left slide-up">
+              <div class="about_content four_right slide-up">
                 <h4>사용언어 및 툴</h4>
                 <ul class="lang_list cf">
                   <li>HTML5,</li>
@@ -266,48 +305,20 @@
                 <button type="button" class="about_close_btn">CLOSE</button>
               </div>
             </article>
-
-            <article class="portfolio_content">
-              <a class="proect_link" href="https://sseom.github.io/project/ajax-friend/" target="_blank" title="새창으로 이동" ><img src="images/ajax-friend.jpg" alt="에이젝스 통신 실습한 웹페이지"></a>
-              <h3>AJAX - Friend</h3>
-              <button type="button" class="about_btn">About this portfolio..</button>
-              <div class="about_content four_right slide-up">
-                <h4>사용언어 및 툴</h4>
-                <ul class="lang_list cf">
-                  <li>HTML5,</li>
-                  <li>CSS,</li>
-                  <li>Javascript,</li>
-                  <li>AJAX</li>
-                </ul>
-                <h4>사용기술</h4>
-                <ul>
-                  <li>
-                    <a class="link" href="https://github.com/sseom/learning/blob/master/04_Ajax_JSON/01_Ajax.md" target="_blank" title="AJAX 학습정리한 내용 새창으로 이동" >AJAX study</a>
-                    </li>
-                  <li>
-                    <a class="link" href="https://github.com/sseom/learning/blob/master/04_Ajax_JSON/02_JSON.md" target="_blank" title="JSON 학습정리한 내용 새창으로 이동" >JSON study</a>
-                  </li>
-                  <li>Ajax 통신으로 JSON 데이터를 화면에 렌더링</li>
-                  <li>추천 친구 정렬 방식 버튼 : 데이터 썸네일 방식 또는 리스트 방식으로 정렬</li>
-                  <li>새로고침 버튼 : 추천 친구 데이터 새로고침</li>
-                  <li>썸네일 이미지 : 썸네일 이미지 호버시 이미지 확대 및 필터 효과, 클릭시 모달콘텐츠(친구 정보) 뜸</li>
-                  <li>해야할 작업 : 불러온 데이터에서 친구 추가 more 버튼 만들고 구현? 흠,,,</li>
-                </ul>
-                <button type="button" class="about_close_btn">CLOSE</button>
-              </div>
-            </article>
           </div>
-        </div>
-
+        </div><!-- 네번째 라인 끝 -->
+        <!-- 코멘트 -->
         <p class="bottom_txt">My project is going to continue....</p>
-      </section>
-      <!--  -->
-      <div class="footer">
-        <p>COPYRIGHT © 2016 SSEOM.</p>
-      </div>
-    </div>
+      </section><!-- 콘텐츠 영역 끝-->
 
-    <!--  -->
+      <!-- 풋터영역 -->
+      <div class="footer">
+        <p>COPYRIGHT © 2017 SSEOM.</p>
+      </div>
+
+    </div><!-- wrap 끝 -->
+
+    <!-- 스크립트 -->
     <script src="js/all.js"></script>
   </body>
 </html>

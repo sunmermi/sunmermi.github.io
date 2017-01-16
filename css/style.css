@@ -123,9 +123,9 @@ button{
   transform: translate(-50%, -50%);
   width: 100%;
   padding: 10px 0;
-  color: #757F85;
+  color: #51575C;
   font-size: 20px;
-  background-color: hsla(0, 0%, 100%, 0.8);
+  background-color: hsla(0, 0%, 100%, 0.7);
   transition: all 0.5s;
   text-align: center;
 }

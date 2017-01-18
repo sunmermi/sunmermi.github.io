@@ -222,6 +222,13 @@ button{
   font-weight: normal;
   margin: 10px 20px;
 }
+.about_content h4.code_view_link{
+  border: none;
+}
+.about_content h4.code_view_link a:hover,
+.about_content h4.code_view_link a:focus{
+  border-bottom: 1px solid #267DFF;
+}
 .about_content ul{
   width: 88%;
   color: #5D666B;
@@ -253,7 +260,10 @@ button{
   background: #6DACBD;
 }
 .link{
-  color: #0852FF;
+  color: #267DFF;
+}
+.link:hover, .link:focus{
+  border-bottom: 1px solid #267DFF;
 }
 
 /* 버튼 슬라이드 이벤트 */

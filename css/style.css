@@ -268,7 +268,7 @@ button{
 
 /* 버튼 슬라이드 이벤트 */
 .slide-down {
-   max-height: 800px; 
+   max-height: 1000px; 
 }
 
 /* 두번째 라인 */
@@ -440,9 +440,26 @@ button{
     width: 80%;
   }
 
-
+  /* 포폴소개 사용기술 내용*/
+  .about_content ul{
+    width: 77%;
+  }
+  /* 네비게이션*/
+  .main_nav li {
+    padding: 10px;
+  }
 
 }
 
+/* 아이폰 5 */
+@media only screen and (max-width: 320px) {
+  .about_btn, .job_btn{
+    display: inline-block;
+    margin: 0;
+  }
+  .job_btn {
+    margin-bottom: 20px;
+  }
+}
 
 

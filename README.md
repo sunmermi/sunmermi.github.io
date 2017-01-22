@@ -115,8 +115,23 @@ E-mail : ysum1011@naver.com
 
 
     + 세번째 방법
-        * 어차피 클래스 추가. 제거 하는 방식이면,,,, 객체.className.replace()말고
-        * 내가 아는 객체.classList.add() , 객체.classList.remove() 이용해서 해보기,,,,
+        * 객체.classList.add() , 객체.classList.remove() 이용
+        * [ 문제점 ] 익스플로어에서는 지원되지 않는다. 최신버전에서도...
+        ```
+          // 슬라이드 클래스
+          function slideClass(content, idx) {
+            // 다운클래스가 있다면
+            // 다운클래스를 삭제 remove 슬라이드업
+            // 없다면 추가 add 슬라이드다운
+            var is = content[idx].classList.contains('slide-down');
+            if( !is ){
+              content[idx].classList.add('slide-down');
+            }else{
+              content[idx].classList.remove('slide-down');
+            }
+          }
+
+        ```
 
 
 ####3. list 요소

@@ -289,7 +289,12 @@ button{
   left: -100%;
 }
 
-/*  */
+/* 다섯번째 라인 */
+.ol_list{
+  margin-top: 10px;
+}
+
+/* 하단 코멘트 */
 .bottom_txt{
   text-align: center;
   padding-top: 40px;

@@ -1,21 +1,21 @@
-# sseom.github.io
+# sunmermi.github.io
 
-### SSEOM's BLOG
+### Sunmi's BLOG
 1. PROJECT : portfolio 모음
 2. LEARNING : HTML, CSS, Javascript,,,,, 등등 학습 정리
 3. OTHER : About Me??,,,
 
-###Contact
-E-mail : ysum1011@naver.com
+### Contact
+E-mail : sunmermi@gmail.com
 
 ---
 
-##SSEOM's Blog 작업일지
+## Sunmi's Blog 작업일지
  
-###사용언어 및 툴
+### 사용언어 및 툴
 - HTML5, CSS, CSS3, Javascript
 
-###사용기술
+### 사용기술
 - 반응형 웹 (RWD) : 모바일, 태블릿, 데스크탑 3가지 버전 (데스크탑 기준)
 - 웹브라우져 크게에 변화하는 유연한 이미지
 - 버튼 이벤트 : 순수 javascript, 슬라이드다운, 슬라이드업 부드러운효과 내기
@@ -24,7 +24,7 @@ E-mail : ysum1011@naver.com
 - CSS3 : transition, transform, opacity,,,등 사용해서 동적인 스타일링
 - CSS3 속성 사용으로 크롬브라우져에 최적화
 
-###진행해야 할 목록
+### 진행해야 할 목록
 - [x] 포폴설명 콘텐츠 슬라이드다운, 슬라이드업 부드러운효과 : 자바스트립트로 구현 하고싶음
 - [x] 미디어 쿼리 사용해서 반응형 작업
 - [x] 투두리스트 디자인 입혀서 포폴에 추가
@@ -35,14 +35,14 @@ E-mail : ysum1011@naver.com
 
 ---
 
-###문제에 대한 해결 방법 (또는 더욱 효율적인 방법)
-####1. font
+### 문제에 대한 해결 방법 (또는 더욱 효율적인 방법)
+#### 1. font
 - [ 문제점 ]
     + 폰트는 어떻게 해야 유연하게 사용할수 있을까? : 미디어쿼리로 폰트사이즈 조절밖에 없나??
 - [ 해결방법 : 미해결 ]
     + 현재는 서브타이틀 IR기법 (image-replace) 사용함.
 
-####2. 버튼 이벤트 : 슬라이드 다운, 슬라이드 업 부드러운 효과
+#### 2. 버튼 이벤트 : 슬라이드 다운, 슬라이드 업 부드러운 효과
 - [ 문제점 ]
     + [내 코드](https://github.com/sseom/sseom.github.io/blob/master/js/all.js)
     + 콘텐츠가 그냥 나타나고 사라짐.. 난 제이쿼리에서 slideDown(), slideUp()과 같은 효과를  자바스크립트로 구현하고 싶다.
